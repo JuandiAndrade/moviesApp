@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Movies App
 
-# Getting Started
+## Descripción
+Esta es una aplicación de películas desarrollada en React Native. Permite ver información sobre películas populares, incluyendo detalles y actores. El proyecto incluye navegación mediante stacks, un carrusel con un FlatList sin dependencias, y scroll horizontal infinito. Proyecto del curso de React Native de Fernando Herrera en Udemy.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Instalación
 
-## Step 1: Start the Metro Server
+### Prerrequisitos
+- Node.js >= 18
+- React Native CLI
+- Android Studio (para desarrollo en Android) o Xcode (para desarrollo en iOS)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Pasos
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/moviesApp.git
+   cd moviesApp
+2. Instala las dependencias:
+   ```bash
+   npm install
+3. Instala las dependencias:
+   ```bash
+   npm start
+4. Para correr en Android:
+   ```bash
+   npm run android
+5. Para correr en iOS:
+   ```bash
+   npm run ios
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Uso
+- Abre la aplicación en tu emulador o dispositivo.
+- Navega por las distintas secciones para ver películas populares, detalles de películas y actores.
 
-```bash
-# using npm
-npm start
+## Capturas de Pantalla
 
-# OR using Yarn
-yarn start
-```
+Aquí hay algunas capturas de pantalla de la aplicación en funcionamiento:
 
-## Step 2: Start your Application
+### Pantalla Principal
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<p align="center">
+  <img src="./screenshots/movies1.jpeg" alt="Pantalla Principal" width="200" style="margin: 10px; border-radius: 10px; border: 1px solid #f1f1f1"/>
+  <img src="./screenshots/movies4.jpeg" alt="Pantalla Principal" width="200" style="margin: 10px; border-radius: 10px; border: 1px solid #f1f1f1"/>
+</p>
+<p align="center">
+  Pantalla principal de la aplicación mostrando el carrusel de películas populares.
+</p>
 
-### For Android
+### Detalle
 
-```bash
-# using npm
-npm run android
+<p align="center">
+  <img src="./screenshots/movies2.jpeg" alt="Pantalla de Detalles" width="200" style="margin: 10px; border-radius: 10px; border: 1px solid #f1f1f1"/>
+  <img src="./screenshots/movies3.jpeg" alt="Pantalla de Detalles" width="200" style="margin: 10px; border-radius: 10px; border: 1px solid #f1f1f1"/>
+</p>
+<p align="center">
+  Pantalla de detalles mostrando información detallada sobre una película.
+</p>
 
-# OR using Yarn
-yarn android
-```
+## Contacto
 
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Juandi - [GitHub](https://github.com/JuandiAndrade) - [LinkedIn](https://www.linkedin.com/in/juan-diego-andrade-polimeni-1a4501249/) - [juandi.andrade.g@gmail.com](mailto:juandi.andrade.g@gmail.com)
